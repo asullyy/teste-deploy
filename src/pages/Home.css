@@ -1,0 +1,134 @@
+.body-home{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), #000000), url(../assets/backgrounds/background-home.png);    
+    background-size:cover;
+}
+
+.container-home{
+    margin: 100px 100px 50px 100px;
+    text-align: center;
+}
+
+.container-slider{
+    margin: 100px 150px;
+}
+
+.slide{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.07);
+    margin: 40px 60px;
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+
+
+.slide img{
+    height: 200px;
+    margin-right: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.slide h2{
+    margin-bottom: 20px;
+    color: #4DC1A5;
+}
+
+.container-supports img{
+    height: 50px;
+    margin: 10px 15px;
+}
+
+.container-supports ul{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.container-rodape h4{
+    font-size: 20px;
+}
+
+.container-rodape ul{
+    display: flex;
+    justify-content: center;
+}
+
+.container-rodape li{
+    color: #ffffff4f;
+    margin: 5px 3px 20px 3px;
+    font-size: 20px;
+}
+
+/*Estilizando o swiper*/
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    --swiper-pagination-color: #4DC1A5;
+}
+
+.swiper-pagination-bullet{
+    --swiper-pagination-bullet-inactive-color: #fff;
+}
+
+.swiper-button-prev{
+    --swiper-navigation-color: #fff;
+}
+
+.swiper-button-next{
+    --swiper-navigation-color: #fff;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .container-home{
+        margin: 80px 50px 30px 50px;
+    }
+
+    .container-slider{
+        margin: 100px 30px
+    }
+
+    .container-slider img{
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+
+    .slide{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-supports img{
+        height: 40px;
+    }
+
+    .container-supports ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    .container-home{
+        margin: 80px 20px 15px 20px;
+    }
+
+    .container-slider{
+        margin: 50px 0px
+    }
+
+    .container-slider img{
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .slide{
+        flex-direction: column;
+        text-align: center;
+        padding: 25px;
+    }
+}
