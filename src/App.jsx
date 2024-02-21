@@ -17,6 +17,7 @@ function App() {
           <Route path="/teste-deploy/Contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
+      <h1>new deploy</h1>
     </>
   )
 }
