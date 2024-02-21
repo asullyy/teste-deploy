@@ -1,11 +1,21 @@
 import "./Menu.css"
 
+import {Link} from 'react-router-dom'
+
 function Menu(){
     return(
         <div>
-            <a href="/">Home</a>
-            <a href="/teste-deploy/About">About</a>
-            <a href="/teste-deploy/Contact">Contact</a>
+            <ul>
+                <li>
+                    <Link to="/teste-deploy">Home</Link>
+                </li>
+                <li>
+                    <Link to="/teste-deploy/About">About</Link>
+                </li>
+                <li>
+                    <Link to="/teste-deploy/Contact">Contact</Link>
+                </li>
+            </ul>
         </div>
     )
 }
