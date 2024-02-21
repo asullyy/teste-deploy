@@ -1,0 +1,5 @@
+.body-about{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), #000000), url(../assets/backgrounds/background-about.png);    
+    background-size:cover;
+}

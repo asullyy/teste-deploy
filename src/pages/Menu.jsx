@@ -1,19 +1,19 @@
 import "./Menu.css"
-
 import {Link} from 'react-router-dom'
 
-function Menu(){
+function Menu(props){
     return(
-        <div>
+        <div className="body-menu">
+            <h4>Benthos</h4>
             <ul>
-                <li>
-                    <Link to="/teste-deploy">Home</Link>
+                <li className={props.statusMission}>
+                    <Link to="/teste-deploy">MISSION</Link>
                 </li>
-                <li>
-                    <Link to="/teste-deploy/About">About</Link>
+                <li className={props.statusAbout}>
+                    <Link to="/teste-deploy/About">ABOUT</Link>
                 </li>
-                <li>
-                    <Link to="/teste-deploy/Contact">Contact</Link>
+                <li className={props.statusContact}>
+                    <Link to="/teste-deploy/Contact">CONTACT</Link>
                 </li>
             </ul>
         </div>
