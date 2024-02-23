@@ -29,7 +29,6 @@
     margin-right: 30px;
     object-fit: cover;
     border-radius: 10px;
-
 }
 
 .slide h2{
@@ -75,16 +74,19 @@
 
 .swiper-button-prev{
     --swiper-navigation-color: #fff;
+    --swiper-navigation-size: 35px;
 }
 
 .swiper-button-next{
     --swiper-navigation-color: #fff;
+    --swiper-navigation-size: 35px;
+
 }
 
 
 @media screen and (max-width: 1150px) {
     .container-home{
-        margin: 80px 50px 30px 50px;
+        margin: 80px 70px 30px 70px;
     }
 
     .container-slider{
@@ -118,7 +120,7 @@
     }
 
     .container-slider{
-        margin: 50px 0px
+        margin: 40px 0px
     }
 
     .container-slider img{
@@ -130,5 +132,26 @@
         flex-direction: column;
         text-align: center;
         padding: 25px;
+        margin: 40px 40px;
+    }
+
+    .slide img{
+        height: 150px;
+    }
+
+    .swiper-button-prev{
+        --swiper-navigation-size: 20px;
+    }
+    
+    .swiper-button-next{
+        --swiper-navigation-size: 20px;
+    }
+
+    .container-supports{
+        margin-bottom: 40px;
+    }
+
+    .container-supports img{
+        height: 30px;
     }
 }
