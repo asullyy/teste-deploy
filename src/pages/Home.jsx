@@ -40,7 +40,11 @@ function Home(){
             <Menu statusMission="active" statusAbout="inactive" statusContact="inactive"/>
             <div className="container-home">
                 <h1>Empowering local communities with digital tools for marine conservation</h1>
-                <button>GET IN TOUTCH</button>
+
+                <a href="/teste-deploy/Contact">
+                    <button>GET IN TOUTCH</button>
+                </a>
+                
 
                 <div className="container-slider">
                     <h2>The Mission</h2>

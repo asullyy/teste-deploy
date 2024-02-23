@@ -3,3 +3,35 @@
     background-image: linear-gradient(rgba(0, 0, 0, .4), #000000), url(../assets/backgrounds/background-contact.png);    
     background-size:cover;
 }
+
+.container-contact{
+    text-align: center;
+    padding: 40px 100px 100px 100px;
+}
+
+.form{
+    padding-top: 50px;
+}
+
+.form ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+}
+
+label{
+    color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+    .container-contact{
+        padding: 30px;
+    }
+}

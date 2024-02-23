@@ -63,6 +63,7 @@ p{
     color: #fff;
     font-weight: 300;
     font-size: 20px;
+    margin: 15px 0px;
 }
 
 button{
@@ -112,6 +113,10 @@ button:hover{
     }
 
     h3{
+        font-size: 12px;
+    }
+
+    p{
         font-size: 12px;
     }
 }

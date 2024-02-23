@@ -3,3 +3,31 @@
     background-image: linear-gradient(rgba(0, 0, 0, .4), #000000), url(../assets/backgrounds/background-about.png);    
     background-size:cover;
 }
+
+.container-about{
+    text-align: center;
+    padding: 40px 100px 100px 100px;
+}
+
+.container-about img{
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+    object-fit:contain;
+}
+
+.container-about h2{
+    margin-bottom: 25px;
+}
+
+.container-about a{
+    text-decoration: none;
+    color: #4DC1A5;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 550px) {
+    .container-about{
+        padding: 30px;
+    }
+}
