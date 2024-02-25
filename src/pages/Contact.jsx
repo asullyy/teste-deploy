@@ -25,7 +25,6 @@ function Contact(){
                 <div>
                     <button>SUBMIT</button>
                 </div>
-                
                 </div>
             </div>
         </div>
