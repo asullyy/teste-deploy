@@ -6,32 +6,76 @@
 
 .container-contact{
     text-align: center;
-    padding: 40px 100px 100px 100px;
+    padding: 40px 400px 20px 400px;
 }
 
-.form{
-    padding-top: 50px;
+.container-contact h2{
+    margin: 40px 0px 50px 0px;
+} 
+
+.form {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Alterado para coluna para garantir que os elementos sejam empilhados verticalmente */
+    width: 100%;
 }
 
-.form ul{
+.form ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
 }
 
-.form ul li{
+.form ul li {
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-top: 10px;
 }
 
-label{
+.label-text {
     color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+input {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-style: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 16px 10px;
+    font-size: 14px;
+    transition: box-shadow .2s;
+    width: 100%; /* Alterado para largura de 100% */
+    box-sizing: border-box; /* Adicionado para incluir padding e borda na largura total */
+}
+
+.input-msg {
+    padding-bottom: 150px;
+}
+
+.input-msg::placeholder {
+    line-height: 150px;
+    transform: translateY(-5%);
+}
+
+.form button{
+    margin: 20px 0px;
+}
+
+@media screen and (max-width: 1150px) {
+    .container-contact {
+        padding: 30px 30px 10px 30px;
+    }
 }
 
 @media screen and (max-width: 550px) {
-    .container-contact{
-        padding: 30px;
+    .container-contact {
+        padding: 30px 30px 10px 30px;
     }
 }

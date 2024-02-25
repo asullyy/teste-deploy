@@ -4,6 +4,12 @@
     background-size:cover;
 }
 
+.logo{
+    position: absolute;
+    top: 0;
+    padding: 20px 0px 0px 30px;
+}
+
 .container-home{
     padding: 100px 100px 10px 100px;
     text-align: center;
@@ -48,7 +54,11 @@
 }
 
 .container-rodape{
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+}
+
+.container-rodape ul{
+    list-style-type:none;
 }
 
 .container-rodape h4{
@@ -123,7 +133,11 @@
 
 @media screen and (max-width: 530px) {
     .container-home{
-        padding: 80px 30px 15px 30px;
+        padding: 100px 30px 15px 30px;
+    }
+
+    .logo h4{
+        font-size: 20px;
     }
 
     .container-slider{
@@ -139,7 +153,7 @@
         flex-direction: column;
         text-align: center;
         padding: 25px;
-        margin: 40px 40px;
+        margin: 30px 40px 0px 40px;
     }
 
     .slide img{

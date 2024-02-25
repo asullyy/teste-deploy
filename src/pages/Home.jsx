@@ -1,4 +1,5 @@
 import Menu from "./Menu";
+import {Link} from 'react-router-dom'
 import "../pages/Home.css";
 
 import {FaInstagram, FaLinkedin} from "react-icons/fa"
@@ -38,13 +39,15 @@ function Home(){
     return(
         <div className="body-home">
             <Menu statusMission="active" statusAbout="inactive" statusContact="inactive"/>
+            <div className="logo">
+                <h4>benthos</h4>
+            </div>
             <div className="container-home">
                 <h1>Empowering local communities with digital tools for marine conservation</h1>
 
-                <a href="/teste-deploy/Contact">
+                <Link to="/teste-deploy/Contact">
                     <button>GET IN TOUTCH</button>
-                </a>
-                
+                </Link>
 
                 <div className="container-slider">
                     <h2>The Mission</h2>

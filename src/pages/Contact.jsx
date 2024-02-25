@@ -10,25 +10,24 @@ function Contact(){
                 <div className="form">
                     <ul>
                         <li>
-                            <label htmlFor="name">Name</label>
-                            <input type="text" id="name"/>
+                            <label htmlFor="name" class="label-text">NAME</label>
+                            <input type="text" placeholder="Enter your name" id="name"/>
                         </li> 
                         <li>
-                            <label htmlFor="email">Email</label>
-                            <input type="text" id="email"/>
+                            <label htmlFor="email" class="label-text">EMAIL ADDRESS</label>
+                            <input type="text" placeholder="Enter your email adress" id="email"/>
                         </li>
                         <li>
-                            <label htmlFor="message">Message</label>
-                            <input type="text" id="message"/>
-                        </li>
-                        <li>
-                            <input type="submit" />
+                            <label htmlFor="message" class="label-text">MESSAGE</label>
+                            <input className="input-msg" type="text" placeholder="Example text" id="message"/>
                         </li>
                     </ul>
+                <div>
+                    <button>SUBMIT</button>
+                </div>
+                
                 </div>
             </div>
-            
-            
         </div>
     )
 }

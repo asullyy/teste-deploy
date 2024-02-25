@@ -54,7 +54,7 @@ h3{
 h4{
     font-family: Lato, sans-serif;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 25px;
 }
 
@@ -82,7 +82,7 @@ button:hover{
     transition-duration: 1s;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1150px) {
     h1{
         font-size: 50px;
     }
@@ -104,12 +104,13 @@ button:hover{
 }
 
 @media screen and (max-width: 550px) {
+
     h1{
         font-size: 30px;
     }
 
     h2{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     h3{
